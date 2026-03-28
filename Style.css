@@ -1,0 +1,66 @@
+h1{
+    color:blue;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50;
+    font-weight: 800;
+}
+
+div{
+    
+    width:500px;
+    height:100px;
+
+}
+
+p{
+padding:40px;
+margin:50px;
+
+border-color: 30 solid black;
+}
+table{
+    border:10px solid black;
+    border-collapse:collapse;
+}
+th, td{
+    color: blue;
+    padding:5px;
+    margin:500px;
+}
+#rod{
+    color:blue;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+.bombo{
+    color:coral;
+}
+ul>li{
+background-color:pink;
+}
+a[href="https://www.youtube.com/watch?v=c-WrCqrrc2I&list=RDA3IhjA2aMUg&index=12"]{
+background-color: red;
+}
+button{
+    width:150px;
+    height:80px;
+    padding:15px;
+    background-color: aqua;
+}
+button:hover{
+    background-color: orange;
+}
+   @media(min-width:600px){
+    body{
+        background-color:darkgreen;
+    }
+   }
+   @media(max-width:1000px){
+    h1{
+        background-color: chocolate;
+    }
+   }
+   
